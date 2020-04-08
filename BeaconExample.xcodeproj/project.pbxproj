@@ -8,24 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		C7FBE6D1243E607B00A58E41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FBE6D0243E607B00A58E41 /* AppDelegate.swift */; };
-		C7FBE6D3243E607B00A58E41 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FBE6D2243E607B00A58E41 /* SceneDelegate.swift */; };
 		C7FBE6D5243E607B00A58E41 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FBE6D4243E607B00A58E41 /* ViewController.swift */; };
 		C7FBE6D8243E607B00A58E41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7FBE6D6243E607B00A58E41 /* Main.storyboard */; };
 		C7FBE6DA243E607E00A58E41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7FBE6D9243E607E00A58E41 /* Assets.xcassets */; };
 		C7FBE6DD243E607E00A58E41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7FBE6DB243E607E00A58E41 /* LaunchScreen.storyboard */; };
 		C7FBE6E5243E60AD00A58E41 /* Beacon.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FBE6E4243E60AD00A58E41 /* Beacon.swift */; };
+		C7FBE6E8243E66D000A58E41 /* BeaconMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FBE6E7243E66D000A58E41 /* BeaconMonitor.swift */; };
+		C7FBE6EA243E716C00A58E41 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FBE6E9243E716C00A58E41 /* Log.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C7FBE6CD243E607B00A58E41 /* BeaconExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeaconExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7FBE6D0243E607B00A58E41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C7FBE6D2243E607B00A58E41 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		C7FBE6D4243E607B00A58E41 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C7FBE6D7243E607B00A58E41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C7FBE6D9243E607E00A58E41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C7FBE6DC243E607E00A58E41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C7FBE6DE243E607E00A58E41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C7FBE6E4243E60AD00A58E41 /* Beacon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beacon.swift; sourceTree = "<group>"; };
+		C7FBE6E7243E66D000A58E41 /* BeaconMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeaconMonitor.swift; sourceTree = "<group>"; };
+		C7FBE6E9243E716C00A58E41 /* Log.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,13 +61,14 @@
 			isa = PBXGroup;
 			children = (
 				C7FBE6D0243E607B00A58E41 /* AppDelegate.swift */,
-				C7FBE6D2243E607B00A58E41 /* SceneDelegate.swift */,
 				C7FBE6D4243E607B00A58E41 /* ViewController.swift */,
 				C7FBE6D6243E607B00A58E41 /* Main.storyboard */,
 				C7FBE6D9243E607E00A58E41 /* Assets.xcassets */,
 				C7FBE6DB243E607E00A58E41 /* LaunchScreen.storyboard */,
 				C7FBE6DE243E607E00A58E41 /* Info.plist */,
 				C7FBE6E4243E60AD00A58E41 /* Beacon.swift */,
+				C7FBE6E7243E66D000A58E41 /* BeaconMonitor.swift */,
+				C7FBE6E9243E716C00A58E41 /* Log.swift */,
 			);
 			path = BeaconExample;
 			sourceTree = "<group>";
@@ -143,7 +146,8 @@
 			files = (
 				C7FBE6D5243E607B00A58E41 /* ViewController.swift in Sources */,
 				C7FBE6D1243E607B00A58E41 /* AppDelegate.swift in Sources */,
-				C7FBE6D3243E607B00A58E41 /* SceneDelegate.swift in Sources */,
+				C7FBE6EA243E716C00A58E41 /* Log.swift in Sources */,
+				C7FBE6E8243E66D000A58E41 /* BeaconMonitor.swift in Sources */,
 				C7FBE6E5243E60AD00A58E41 /* Beacon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,6 +295,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DFC995SFJ6;
 				INFOPLIST_FILE = BeaconExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +314,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DFC995SFJ6;
 				INFOPLIST_FILE = BeaconExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
